@@ -28,6 +28,7 @@ import subprocess
 from libgkonap.gkpath import wersja
 
 DATA_FILES = [('/usr/share/pixmaps', ['libgkonap/gfx/gkonap.xpm']),
+              ('/usr/share/pixmaps/gkonap', ['libgkonap/gfx/icon.svg']),
               ('/usr/share/menu', ['gkonap']),
               ('/usr/share/applications', ['gkonap.desktop'])]
 PKG_DATA = ['glade/*', 'gfx/*']
