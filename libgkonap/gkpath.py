@@ -1,5 +1,5 @@
-domyslny_katalog = "$HOME/projekty/gkonap/testy/trunk"
-config_file = "$HOME/projekty/gkonap/testy/trunk/config/config_file"
-icon = "/home/daniel/projekty/gkonap/trunk/gfx/icon.svg"
-gladefile = "/home/daniel/projekty/gkonap/trunk/gkonap.glade"
+domyslny_katalog = "$HOME/git/gkonap-old/test/"
+config_file = "$HOME/git/gkonap-old/test/config/config_file"
+icon = "/home/daniel/git/gkonap-old/libgkonap/gfx/icon.svg"
+gladefile = "/home/daniel/git/gkonap-old/libgkonap/glade/gkonap.glade"
 wersja = 'dev'

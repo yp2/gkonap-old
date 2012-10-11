@@ -7,3 +7,4 @@
 stat_*
 build/
 dist/
+test/

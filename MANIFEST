@@ -2,10 +2,11 @@
 README
 gkonap
 gkonap.desktop
-gkonap.glade
-gkonap.py
-gkpath.py
-konap.py
 setup.py
-gfx/gkonap.xpm
-gfx/icon.svg
+libgkonap/__init__.py
+libgkonap/gkonap.py
+libgkonap/gkpath.py
+libgkonap/konap.py
+libgkonap/gfx/gkonap.xpm
+libgkonap/gfx/icon.svg
+libgkonap/glade/gkonap.glade
