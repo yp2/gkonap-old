@@ -74,7 +74,7 @@ class Gui:
         self.domyslny_katalog = gkpath.domyslny_katalog
         self.config_file = gkpath.config_file
         self.icon = gkpath.icon
-        self.gladefile = gkpath.gladefile
+        self.gladefile = 'glade/gkonap.glade'
         self.wtr = gtk.glade.XML(self.gladefile)
         
         #Handlers
