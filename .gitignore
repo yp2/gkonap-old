@@ -5,4 +5,5 @@
 .pydevproject
 *.pyc
 stat_*
-
+build/
+dist/
