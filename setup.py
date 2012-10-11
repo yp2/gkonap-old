@@ -42,7 +42,6 @@ class Install_lib(install_lib):
         path_gkonap = install_dir + 'gkonap.py'
         path_konap = install_dir + 'konap.py'
         if os.path.exists(path_gkonap):
-            print "istnieje gkonap"
             cmd = 'ln -s %s /usr/bin/gkonap' % path_gkonap
             links_symbolic = subprocess.Popen(cmd, shell=True, stdout=None)
             links_symbolic.wait()
@@ -50,11 +49,9 @@ class Install_lib(install_lib):
             chmod = subprocess.Popen(cmd_1, shell=True, stdout=None)
             chmod.wait()
         else:
-            print 'nie istnieje gkonap'
             raise RuntimeError()
         
         if os.path.exists(path_konap):
-            print "istnieje konap"
             cmd = 'ln -s %s /usr/bin/konap' % path_konap
             links_symbolic = subprocess.Popen(cmd, shell=True, stdout=None)
             links_symbolic.wait()
@@ -62,7 +59,6 @@ class Install_lib(install_lib):
             chmod = subprocess.Popen(cmd_1, shell=True, stdout=None)
             chmod.wait()
         else:
-            print "nie istnieje konap"
             raise RuntimeError()
             
 setup(name = "gKonap",
