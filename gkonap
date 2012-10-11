@@ -1,0 +1,5 @@
+?package(gkonap):needs="X11" \
+        section="Applications/Video" \
+        title="gKonap" \
+        command="/usr/bin/gkonap" \
+        icon="/usr/lib/gkonap/gfx/icon/128x128/gkonap.png"

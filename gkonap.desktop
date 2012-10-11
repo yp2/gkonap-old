@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=gKonap
+Icon=/usr/lib/gkonap/gfx/icon/128x128/gkonap.png
+Comment=Konwerter napisów.
+Exec=/usr/bin/gkonap
+Terminal=false
+Type=Application
+Categories=GTK;AudioVideo;Editor;
+StartupNotify=false
+GenericName[pl_PL]=
