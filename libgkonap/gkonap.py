@@ -59,6 +59,7 @@ __opis__ = u"Program do konwersji formatów napisów dla filmów. \
 Obsługuje następujące formaty: MicroDVD, MPL2, SubRip oraz TMPlayer tylko jako format wejściowy. \
 Program posiada obsługę serwisu Napiprojekt do ściągania napisów do filmów."
 
+glade_path = os.path.dirname(os.path.realpath(__file__)) + '/glade/gkonap.glade'
 ##Nazwa procesu
 libc = ctypes.CDLL('libc.so.6')
 libc.prctl(15, __nazwa__+'\0', 0, 0, 0)
@@ -74,7 +75,7 @@ class Gui:
         self.domyslny_katalog = gkpath.domyslny_katalog
         self.config_file = gkpath.config_file
         self.icon = gkpath.icon
-        self.gladefile = 'glade/gkonap.glade'
+        self.gladefile = glade_path
         self.wtr = gtk.glade.XML(self.gladefile)
         
         #Handlers
