@@ -1,0 +1,9 @@
+gKonap - subtitle converter and subtitle downloader
+
+gKonap - software do dowload and convert subtiles from one format to
+another. Writen in Python and PyGtk. Subs are downloaded from Polish
+site - napiprojekt.org
+
+FILES 
+gkonap - GUI for konap with function to download subs
+konap - CLI only for converting subs 

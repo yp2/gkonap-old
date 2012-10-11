@@ -2,7 +2,7 @@
 Version=1.0
 Encoding=UTF-8
 Name=gKonap
-Icon=/usr/lib/gkonap/gfx/icon/128x128/gkonap.png
+Icon=/usr/share/pixmaps/gkonap.xpm
 Comment=Konwerter napisów.
 Exec=/usr/bin/gkonap
 Terminal=false

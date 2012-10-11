@@ -1,0 +1,3 @@
+include README gkonap gkonap.desktop
+recursive-include libgkonap/gfx *
+recursive-include libgkonap/glade *
