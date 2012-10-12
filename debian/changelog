@@ -1,0 +1,266 @@
+gkonap (0.5.2.0-xxx1) xxx; urgency=low
+
+  * przeniesie na instalcji na CDBS z wykorzystaniem python'owskich distutils
+  * poprawki 
+
+ -- Daniel Dereziński <daniel.derezinski@gmail.com>  Fri, 12 Oct 2012 16:44:09 +0200
+
+gkonap (0.5.1.0-xxx6) xxx; urgency=high
+
+  * Poprawki dotyczące: poprawnego przekazywanie domyślnego fps gdy z pliku wideo nie udało odczytać się fps; poprawa zapisu opcji gdy użyto innego fps niż te zaproponowane w programie (program nie wyświetla pustego miejsca tylko 1 opcje z domyślnych wartości fps.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Mon, 24 Jan 2011 21:33:17 +0100
+
+gkonap (0.5.1.0-xxx5) xxx; urgency=high
+
+  * Poprawienie wyrażenia regularnego przy usuwaniu reszty niepotrzebnych tagów przy włącznonej opcji 'Znaczniki XBMC'
+  
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Sun, 23 Jan 2011 11:02:57 +0100
+
+gkonap (0.5.1.0-xxx4) xxx; urgency=high
+
+  * BugFix 699733 - konwersja z tmpl do srt.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Fri, 07 Jan 2011 16:58:25 +0100
+
+gkonap (0.5.1.0-xxx3) xxx; urgency=high
+
+  * BugFix 696828
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Mon, 03 Jan 2011 22:35:38 +0100
+
+gkonap (0.5.1.0-xxx2) xxx; urgency=high
+  
+  * Wersja w gkpath.py
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Sun, 02 Jan 2011 18:15:26 +0100
+
+gkonap (0.5.1.0-xxx1) xxx; urgency=high
+
+  * Usuwanie oryginalnych plików tylko przy nadpisaniu pliku oraz gdy rozszerzenie pliku wyjściowego jest inne niż oryginalnego.
+  * Poprawienie funkcji naprawy czasów gdy któregoś brak ([], {}) tylko dla MicroDVD i MPL2. 
+  * Dodanie funkcji porównywania czasów napisów, aby napisy się nie nakładały na siebie, w wypadku błędów w pliku wejściowym.
+  * Naprawienie konwersji czasów na format SubRIP. Problem z nakładającymi się napisami.
+  * Dodanie nowego tagu - bold dla XMBC.
+  * Usuwanie zbędnych ozdobników {X:xx} przy włącznonej opcji znaczniki XBMC.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Sun, 02 Jan 2011 17:48:24 +0100
+
+gkonap (0.5.0.7-xxx3) xxx; urgency=high
+
+  * Poprawiono błąd związany z dużymi literami w rozszerzeniach.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Fri, 10 Dec 2010 17:06:38 +0100
+
+gkonap (0.5.0.7-xxx2) xxx; urgency=high
+
+  * Poprawienie usuwania plików po zmianie rozszerzenia.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Mon, 06 Dec 2010 17:31:59 +0100
+
+gkonap (0.5.0.7-xxx1) xxx; urgency=high
+
+  * Poprawione zabawy z kodem (poprzedni poprawki spowodowały nieprawidłowe działanie konwersji do srt.
+  * Dodanie automatycznej zamiany rozszerzeń konwertowanych plików na odpowiednie dla danego formatu (na prośbę Irka).
+  * Drobne poprawki w kodzie.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Sat, 04 Dec 2010 19:08:12 +0100
+
+gkonap (0.5.0.6-xxx3) xxx; urgency=high
+
+  * Poprawka w słowniku opcji konap.py - błąd ktytyczny.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Thu, 02 Dec 2010 19:40:40 +0100
+
+gkonap (0.5.0.6-xxx2) xxx; urgency=high
+
+  * Poprawka od Konrada <konirad@o2.pl> - wywalanie programu przy {123}{}
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Wed, 01 Dec 2010 20:51:10 +0100
+
+gkonap (0.5.0.6-xxx) xxx; urgency=low
+  
+  * Zmiana sposobu odczytu framerate'u plików - wykorzystanie kaa.metadata.
+  * Program poprawnie odczytuje framerate z plików mkv
+  * Dodanie nowej opcji - Znaczniki dla XBMC - możliwość zamiany znaczników kursywy z różnych rodzajów napisów na rozpoznawane przez XBMC.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Mon, 08 Nov 2010 19:19:45 +0100
+
+gkonap (0.5.0.5-xxx1) xxx; urgency=low
+
+  * Zmiany w rozpoznawaniu czasu dla formatu TMPlayer.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Mon, 31 Aug 2009 22:04:01 +0200
+
+gkonap (0.5.0.4-xxx1) xxx; urgency=low
+
+  * Poprawki w interfejsie.
+  * Usuwanie pozostałości po napiprojekt (napisy.7z)
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Tue, 28 Jul 2009 21:29:25 +0200 
+
+gkonap (0.5.0.3-xxx2) xxx; urgency=high
+
+  *BugFix.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Sat, 18 Jul 2009 10:07:43 +0200
+
+gkonap (0.5.0.3-xxx1) xxx; urgency=low
+  
+  * Nazwa porcesu.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Fri, 17 Jul 2009 20:29:55 +0200
+
+gkonap (0.5.0.2-xxx1) xxx; urgency=low
+
+  * Dodanie informacji o programie.
+  * Zmiany w interfejsie programu.
+  * Dodanie informacji o pracy programu w StatusBar.
+  * Drobne poprawki.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Sun, 03 May 2009 20:52:02 +0200
+
+gkonap (0.5.0.1-xxx1) xxx; urgency=high
+
+  * Poprawa błędu dotyczącego domyślnego frameratu plików wideo, dla których nie udało się odczytać fps.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Fri, 01 May 2009 19:21:39 +0200
+
+gkonap (0.5.0-xxx9) xxx; urgency=high
+
+  * Poprawa krytycznego błędu w konwersji napisów z formatu TMPlayer do SubRip.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Mon, 27 Apr 2009 20:50:46 +0200
+
+gkonap (0.5.0-xxx8) xxx; urgency=high
+
+  * Poprawa krytycznego błędu w konwersji napisów z formatu TMPlayer do SubRip.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Mon, 27 Apr 2009 20:17:22 +0200
+
+gkonap (0.5.0-xxx7) xxx; urgency=high
+
+  * Naprawa krytycznego błędu.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Thu, 23 Apr 2009 22:09:29 +0200
+
+gkonap (0.5.0-xxx6) xxx; urgency=high
+
+  * konap - poprawki w module odpowiedzialnym za konwersję napisów z formatu TMPlayer na inne. Ustawienie maksymalnego czasu wyświetlania pojedynczej linii napisu na 4sekundy. Poprawka w tym module obliczeń pozwalających na powstanie sekund większych niż 60. 
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Mon, 20 Apr 2009 22:08:29 +0200
+
+gkonap (0.5.0-xxx5) xxx; urgency=high
+
+  * Poprawki błędów.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Sun, 19 Apr 2009 21:16:31 +0200
+
+gkonap (0.5.0-xxx4) xxx; urgency=high
+
+  * Poprawki błędów.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Sun, 19 Apr 2009 19:21:54 +0200
+
+gkonap (0.5.0-xxx3) xxx; urgency=high
+  
+  * Zmiana nazewnictwa paczek
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Sun, 19 Apr 2009 13:15:47 +0200
+
+gkonap (0.5.0-2) xxx; urgency=high
+
+  * Usunięcie problemu zleżności.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Sun, 19 Apr 2009 12:42:40 +0200
+
+gkonap (0.5.0-1) xxx; urgency=low
+
+  * Dodanie obsługi wielu plików.
+  * Dodanie obsługi plików i katalogów z linii komend jako argumentów dla programu.
+  * Dodanie obsługi ściągania napisów z wykorzystaniem serwisu napiprojekt, z poziomu programu jak również z poziomu linii komend jako argument dla programu.
+  * Rozpoznawanie czy argumenty dla programu to pliki wideo czy napisy. Odpowiednie zachowanie programu.
+  * Poprawki błędów w programie.
+  * Dodanie obsługi zapamiętywanie ostatnio użytego katalogu.
+  * Dodanie obsługi zapisu i odczytu dla opcji programu oraz ścieżek.
+  * Poprawki interfejsu.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Sun, 19 Apr 2009 11:30:15 +0200
+
+konap (0.4.1) xxx; urgency=low
+ 
+  * Poprawki kodu.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Sun, 19 Apr 2009 11:30:10 +0200
+
+gkonap (0.4.1-6) xxx; urgency=low
+
+  * Poprawa błędu w wyjściu komunikatów programu.
+  * Drobne poprawki w komunikatach programów konap, gkonap
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Sun, 26 Oct 2008 09:56:59 +0100 
+
+gkonap (0.4.1-5) xxx; urgency=low
+
+  * Poprawki w .deb - BugFix
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Wed, 22 Oct 2008 21:50:46 +0200
+
+gkonap (0.4.1-4) xxx; urgency=low
+  
+  * Drobne poprawki.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Wed, 22 Oct 2008 21:22:40 +0200
+
+gkonap (0.4.1-3) xxx; urgency=low
+
+  * Bug Fixing.
+  * Dodanie obsługi locale dla liczb wraz z konwersją dla karajów. 
+
+ -- Daniel Dereziński <daniel.derezinski@gmail.com>  Wed, 22 Oct 2008 18:35:16 +0200
+
+gkonap (0.4.1-2) xxx; urgency=low
+
+  * Drugi build wraz z poprawkami skrótów. Więcej w /usr/share/doc/gkonap/changelog.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Wed, 22 Oct 2008 18:32:04 +020
+
+gkonap (0.4.1-1) xxx; urgency=low
+	
+  * Dodano ikony do projektu.
+  * Okna dialogowe z funkcją pomijania paska zadań.
+  * Zmiana nazewnictwa plików.
+  * Dodanie pliku .desktop, wpisu do menu gnome.
+  * Paczka deb (ubuntu).
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Sat, 18 Oct 2008 22:04:34 +0200
+
+gKonap/konap (0.4) xxx; urgency=low
+
+  * gKonap: przeprojektowano GUI.
+  * gkonap: dodano funkcje: rozszerzenie, nadpisz, znacznik.
+  * konap: dodano funkcje: rozszerzenie, nadpisz, znacznik.
+	
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Tue, 14 Oct 2008 20:12:23 +0200
+	
+gKonap/konap (0.3) xxx; urgency=low
+
+  * gKonap: wczesne wydanie GUI.
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Wed, 01 Oct 2008 20:25:23 +0200
+
+konap (0.2) xxx; urgency=low
+
+  * Kompletne przepisanie kodu.
+  * Dodanie 2 formatów wyjściowych (MicroDVD, MPL2).
+  * Dodanie 3 formatów wejściowych (MicroDVD, SubRip, TMplayer).
+  * Dodanie obsługi podkatalogów.
+	
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Sat, 20 Sep 2008 20:01:43 +0200
+
+konap (0.1) xxx; urgency=low
+
+  * Pierwsze wydanie programu.
+  * Obsługa jednego formatu wejściowego (MPL2).
+
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Mon, 08 Sep 2008 20:08:56 +0200
