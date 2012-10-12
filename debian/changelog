@@ -1,3 +1,10 @@
+gkonap (0.5.2.0-xxx1) xxx; urgency=low
+
+  * przeniesie na instalcji na CDBS z wykorzystaniem python'owskich distutils
+  * poprawki 
+
+ -- Daniel Dereziński <daniel.derezinski@gmail.com>  Fri, 12 Oct 2012 16:44:09 +0200
+
 gkonap (0.5.1.0-xxx6) xxx; urgency=high
 
   * Poprawki dotyczące: poprawnego przekazywanie domyślnego fps gdy z pliku wideo nie udało odczytać się fps; poprawa zapisu opcji gdy użyto innego fps niż te zaproponowane w programie (program nie wyświetla pustego miejsca tylko 1 opcje z domyślnych wartości fps.
