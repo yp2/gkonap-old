@@ -1,0 +1,5 @@
+?package(gkonap):needs="X11" \
+        section="Applications/Video" \
+        title="gKonap" \
+        command="/usr/bin/gkonap" \
+        icon="/usr/share/pixmaps/gkonap.xpm"
