@@ -1,3 +1,9 @@
+gkonap (0.5.2.0-xxx3) xxx; urgency=high
+
+  * Dodanie skryptów startujących dla nie działającej paczki
+
+ -- Daniel Dereziński <daniel.derezinski@gmail.com>  Mon, 07 Jan 2013 20:06:48 +0100
+
 gkonap (0.5.2.0-xxx2) xxx; urgency=high
 
   *  Poprawki w paczce.
