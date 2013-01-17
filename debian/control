@@ -2,8 +2,8 @@ Source: gkonap
 Section: graphics
 Priority: optional
 Maintainer: Daniel Dereziński <daniel.derezinski@gmail.com>
-Build-Depends: cdbs, debhelper (>= 8.0.0), python (>= 2.6), python-support
-XS-Python-Version: >= 2.4
+Build-Depends: cdbs(>= 0.4.90), debhelper (>= 8.0.0), python (>= 2.6.6-3)
+X-Python-Version: >= 2.6.6
 Standards-Version: 3.9.2
 Homepage: https://launchpad.net/konap
 Vcs-Git: git://github.com/yp2/gkonap-old.git
@@ -11,7 +11,7 @@ Vcs-Browser: https://github.com/yp2/gkonap-old.git
 
 Package: gkonap
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, python(>= 2.5.2), python-gtk2(>= 2.0), python-glade2(>= 2.12.1), p7zip-full, python-kaa-base, python-kaa-metadata
+Depends: ${shlibs:Depends}, ${misc:Depends}, python(>= 2.6.6), python-gtk2(>= 2.0), python-glade2(>= 2.12.1), p7zip-full, python-kaa-base, python-kaa-metadata
 Description: Converts subtitle format for movies.
  Program converts subtitle formats. Supported formats:
  MicroDVD, SubRip, MPL2 and TMplayer only for input.
