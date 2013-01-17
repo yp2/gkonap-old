@@ -1,3 +1,9 @@
+gkonap (0.5.2.0-xxx5) xxx; urgency=low
+
+  * poprawki do dh_python2
+
+ -- Daniel Dereziński <daniel.derezinski@gmail.com>  Thu, 17 Jan 2013 18:43:30 +0100
+
 gkonap (0.5.2.0-xxx4) xxx; urgency=high
 
   * migracja do dh_python2
