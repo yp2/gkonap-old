@@ -1,3 +1,9 @@
+gkonap (0.5.2.0-ubuntu1) xxx; urgency=low
+
+  * dh_python2
+
+ -- Daniel Dereziński <daniel.derezinski@gmail.com>  Fri, 18 Jan 2013 22:05:09 +0100
+
 gkonap (0.5.2.0-xxx5) xxx; urgency=low
 
   * poprawki do dh_python2
@@ -247,7 +253,7 @@ gkonap (0.4.1-2) xxx; urgency=low
 
   * Drugi build wraz z poprawkami skrótów. Więcej w /usr/share/doc/gkonap/changelog.
 
- -- Daniel Derezinski <daniel.derezinski@gmail.com>  Wed, 22 Oct 2008 18:32:04 +020
+ -- Daniel Derezinski <daniel.derezinski@gmail.com>  Wed, 22 Oct 2008 18:32:04 +0200
 
 gkonap (0.4.1-1) xxx; urgency=low
 	
@@ -259,17 +265,17 @@ gkonap (0.4.1-1) xxx; urgency=low
 
  -- Daniel Derezinski <daniel.derezinski@gmail.com>  Sat, 18 Oct 2008 22:04:34 +0200
 
-gKonap/konap (0.4) xxx; urgency=low
+gKonap (0.4) xxx; urgency=low
 
-  * gKonap: przeprojektowano GUI.
-  * gkonap: dodano funkcje: rozszerzenie, nadpisz, znacznik.
-  * konap: dodano funkcje: rozszerzenie, nadpisz, znacznik.
+  * gKonap przeprojektowano GUI.
+  * gkonap dodano funkcje rozszerzenie, nadpisz, znacznik.
+  * konap dodano funkcje rozszerzenie, nadpisz, znacznik.
 	
  -- Daniel Derezinski <daniel.derezinski@gmail.com>  Tue, 14 Oct 2008 20:12:23 +0200
 	
-gKonap/konap (0.3) xxx; urgency=low
+gKonap (0.3) xxx; urgency=low
 
-  * gKonap: wczesne wydanie GUI.
+  * gKonap wczesne wydanie GUI.
 
  -- Daniel Derezinski <daniel.derezinski@gmail.com>  Wed, 01 Oct 2008 20:25:23 +0200
 
